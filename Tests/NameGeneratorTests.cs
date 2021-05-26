@@ -27,13 +27,5 @@ namespace Tests
 
             Assert.IsTrue(syllable.Contains(syllable));
         }
-
-        [TestMethod]
-        public void BasicSyllable_ShouldFail()
-        {
-            var syllable = Act();
-
-            Assert.IsTrue(syllable.Equals(""));
-        }
     }
 }
