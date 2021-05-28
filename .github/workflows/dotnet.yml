@@ -28,7 +28,7 @@ jobs:
       uses: actions/upload-artifact@v2.2.3
       with:
         name: Adyanilgen
-        path: ~/bin/Debug/net5.0/Adyanilgen.0.1.0.nupkg
+        path: /home/runner/work/Adyanilgen/Adyanilgen/Adyanilgen/bin/Release/
     - name: Download a Build Artifact
       uses: actions/download-artifact@v2.0.9
       with:
