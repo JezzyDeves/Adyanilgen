@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace Adyanilgen
+namespace Adyanilgen.LanguageGen
 {
     /// <summary>
     /// This class is where the phonetics used in the generation of words are stored
@@ -17,7 +13,7 @@ namespace Adyanilgen
         };
         public List<string> Consanants = new List<string>
         {
-            "p", "f", "sh", "th", "j", "r", "l", "y", "n", "m"
+            "p", "f", "sh", "th", "j", "r", "l", "y", "n", "m", "x", "h"
         };
     }
 }
